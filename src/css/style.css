@@ -4,7 +4,7 @@ body {
 
 body {
     background: #dbdbdb;
-    background-image: url('/src/imagens/Fundo.jpg');
+    background-image: url('./src/imagens/Fundo.jpg');
 }
 .cabecalho {
     display: flex;
