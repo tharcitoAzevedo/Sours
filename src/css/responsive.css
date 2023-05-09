@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: #dbdbdb;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .gallery {
+        max-width: 50%;
+    }
+
+    .container .texto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .paragrafo {
+        color: #000000;
+        text-align: center;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .gallery {
+        max-width: 75%;
+    }
+}
+
