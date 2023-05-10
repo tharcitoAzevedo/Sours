@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins';
-    background: #dbdbdb;
-    background-image: url("/src/imagens/Fundo.jpg");
+    background: rgb(124,124,124);
+    background: linear-gradient(90deg, rgba(124,124,124,1) 0%, rgba(209,209,209,1) 50%, rgba(124,124,124,1) 100%);  
 }
 
 .cabecalho {
@@ -11,6 +11,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     align-items: center;
+    background: transparent;
 }
 
 .cabecalho .logo {
@@ -19,22 +20,32 @@ body {
 
 }
 
-.cabecalho .menu {
-    display: flex;
-    align-items: center;
+button {
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.cabecalho nav li a {
-    font-weight: bold;
-    color: #000000;
-    font-size: 25px;
-    padding: 2px 25px;
-    border-radius: 10px;
+button a {
+    background-color: transparent;
+    color: transparent;
+    padding: 10px 30px;
+    border-radius: 21px;
     transition: 0.2s;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+    font-size: 29px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #000000;
 }
 
-.cabecalho nav li a:hover {
-    background-color: #ffffff;
+button a:hover {
+    background-color: #d1d1d1;
+}
+
+button a:active{
+    position: relative;
+    top: 1px;
 }
 
 .container {
@@ -69,7 +80,7 @@ body {
     cursor: pointer;
     border: none;
     background: linear-gradient(to left, transparent 0%, black 200%);
-    opacity: 0.1;
+    opacity: 0.7;
     transition: all 600ms ease-in-out;
 
 }
@@ -124,21 +135,33 @@ body {
 .texto {
     width: 100%;
     height: 100px;
+    align-items: center;
+    text-align: center;
 }
 
 .paragrafo{
     width: 100%;
-    align-items: center;
-    text-align: center;
-    background-color: #d8d8d8;
+    background-color: transparent;
+    color: #2c2c2c;
 }
 .paragrafo:hover {
-    background-color: #ffffff;
-    font-size: 18px;
-    padding: 2px 25px;
-    border-radius: 0px;
+    background-color: transparent;
+    font-size: 17px;
+    padding: 0px 1px;
+    border-radius: 10px;
     transition: 0.2s;
 }
 
+
+.fundo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.slogan {
+    color: #2c2c2c;
+    font-size: 22px;
+}
 
 
