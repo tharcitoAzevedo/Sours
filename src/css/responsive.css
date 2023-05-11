@@ -31,12 +31,23 @@
 @media (max-width: 500px) {
     .cabecalho {
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+        justify-content: space-between;
+        gap: 20px;
     }
 
     .container .gallery {
-        max-width: 75%;
+        max-width: 70%;
     }
+
 }
+
+
+@media (max-width: 376) {
+
+    .cabecalho .logo{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;}
+}
+
 
